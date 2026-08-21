@@ -1,0 +1,19 @@
+.box{
+    border: 10px red double;
+    padding: 50px;
+    margin: 20px;
+    font-style: italic;
+    height: 100px;
+    width: 120px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    outline: 5px blue solid;
+    box-shadow: 10px 10px 32px blue;
+    height: 300px;
+    width: 1200px;
+    justify-content: center;
+    margin-left: 150px;
+}
