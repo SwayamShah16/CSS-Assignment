@@ -1,0 +1,36 @@
+
+.container{
+    display: flex;
+    background-color: grey;
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    padding: 50px;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.box{
+    padding:20px;
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    border: 10px black dotted;
+    outline: 10px red double;
+}
+.box1{
+    padding:20px;
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    border: 15px red double;
+    outline: 5px black solid;
+}
+.box2{
+    padding:20px;
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    border: 10px black dotted;
+    outline: 10px red double;
+}

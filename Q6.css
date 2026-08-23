@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    background-color: grey;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    padding: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box{
+    padding: 50px;
+    height: 200px;
+    width: 250px;
+    background-color: azure;
+}
+#b1{
+    order: 2;
+}
+#b2{
+    order: 5;
+}
+#b3{
+    order: 6;
+}
+#b4{
+    order: 1;
+}
+#b5{
+    order: 4;
+}
+#b6{
+    order: 3;
+}
