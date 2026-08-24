@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background: linear-gradient(120deg,white,rgb(219, 158, 168),rgb(215, 130, 215),rgb(117, 117, 214),rgb(124, 213, 124),rgb(203, 203, 116),rgb(203, 168, 103),rgb(212, 106, 106));
+            background-size: 500% 500%;
+            animation: gd 10s ease infinite;
+        }
+        @keyframes gd{
+            0%,100%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100%;
+            }
+        }
+        div{
+            height: 500px;
+            padding: 20px;
+            width: 1000px;
+            border: 1px black solid;
+            margin-left: 100px;
+            margin-top: 50px;
+            box-shadow: 8px 8px 30px black;
+            border-radius: 10px;
+        }
+        td{
+            padding: 30px;
+        }
+        table{
+            margin-left: 150px;
+            border-collapse: collapse;
+            padding: 50px;
+        }
+        th::before{
+            content: '✔️';
+        }
+        td::before{
+            content: '👌';
+        }
+        tr:nth-child(odd){
+            background-color: beige;
+        }
+        th{
+            background-color: aqua;
+        }
+        td:hover{
+            transition: transform 2s ease;
+            transform: rotateX(360deg);
+            transform: rotateY(360deg);
+            transform:rotateZ(360deg);
+            transform: perspective(30px) rotateX(360deg);
+            transform:scale(1.2);
+            transform: skew(360deg);
+            transform: translate(150px);
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+            <th>Roll Number</th>
+            <th>Student name</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tom</td>
+            <td>85</td>
+            <td>70</td>
+            <td>90</td>
+            <td>245</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tom</td>
+            <td>85</td>
+            <td>70</td>
+            <td>90</td>
+            <td>245</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tom</td>
+            <td>85</td>
+            <td>70</td>
+            <td>90</td>
+            <td>245</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tom</td>
+            <td>85</td>
+            <td>70</td>
+            <td>90</td>
+            <td>245</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tom</td>
+            <td>85</td>
+            <td>70</td>
+            <td>90</td>
+            <td>245</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tom</td>
+            <td>85</td>
+            <td>70</td>
+            <td>90</td>
+            <td>245</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
