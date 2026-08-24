@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .nav{
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: bisque;
+            align-items: center;
+        }
+        img{
+            display: block;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+            position: relative;
+        }
+        .text{
+            position: absolute;
+            color: yellow;
+            top: 50px;
+            left: 240px;
+        }
+        @media(max-width:600px){
+            body{
+            margin: 0px;
+        }
+        .nav{
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: bisque;
+            align-items: center;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+            background-color: brown;
+            position: relative;
+        }
+        .text{
+            position: absolute;
+            color: yellow;
+            top: auto;
+            left: auto;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Register</a>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJAzu5aTrvg0yPTkww7slPkkHuIjxHKsxRnF6YOnvsQ&s=10" alt="" height="300px" width="1000px">
+            <div class="text">
+                <h3>Hero Section</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores adipisci soluta tempore ab voluptas quam, magni aliquam minima assumenda fuga?</p>
+                <button type="submit">More Info</button>&nbsp;&nbsp;
+                <button type="submit">View</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

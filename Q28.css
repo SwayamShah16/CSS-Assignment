@@ -23,3 +23,17 @@ div{
     justify-content: center;
     box-shadow: 10px 10px 30px black;
 }
+label::before{
+    content: '✔️';
+}
+
+label:nth-child(odd){
+    background-color: aqua;
+}
+
+button:hover{
+    transition: 1s transform ease ;
+    transform: scaleX(2);
+    transform: skew(120deg);
+    transform: translate(100px);
+}
