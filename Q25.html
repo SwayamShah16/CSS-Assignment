@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            text-align: center;
+        }
+        .nav{
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: bisque;
+            align-items: center;
+        }
+        img{
+            display: block;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+            position: relative;
+        }
+        .text{
+            position: absolute;
+            color: yellow;
+            top: 50px;
+            left: 240px;
+        }
+        @media(max-width:700px){
+            body{
+                margin: 0px;
+            }
+            .nav{
+                height: 70px;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                background-color: bisque;
+                align-items: center;
+            }
+            .image{
+                display: flex;
+                justify-content: center;
+                margin: 50px;
+                background-color: brown;
+                position: relative;
+            }
+            .text{
+                position: absolute;
+                color: yellow;
+                top: auto;
+                left: auto;
+            }
+            .container{
+                display: flex;
+                background-color: grey;
+                height: 300px;
+                width: 1000px;
+                text-align: center;
+                padding: 50px;
+                justify-content: space-evenly;
+                text-align: center;
+                margin-left: 100px;
+                margin-top: 50px;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+            .box{
+                margin: 20px;
+                padding: 10px;
+                height: auto;
+                width: auto;
+                background-color: azure;
+                font-family: cursive;
+                font-weight: normal;
+                font-style: italic;
+                text-shadow: 2px 2px 30px black;
+                text-decoration: 2px grey dashed underline;
+            } 
+        }
+        .footer{
+            position: static;
+            height: 50px;
+            width: 100%;
+        }
+        .services{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            align-items: center;
+        }
+        .cards{
+            height: 300px;
+            width: 300px;
+            text-align: center;
+            margin:30px;
+            padding: 20px;
+        }
+        .img1{
+            
+            height: 100px;
+            width: 100px;
+        }
+        @media(orientation: portrait){
+                body{
+                margin: 0px;
+            }
+            .nav{
+                height: 70px;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                background-color: bisque;
+                align-items: center;
+            }
+            .image{
+                display: flex;
+                justify-content: center;
+                margin: 50px;
+                background-color: brown;
+                position: relative;
+            }
+            .text{
+                position: absolute;
+                color: yellow;
+                top: auto;
+                left: auto;
+            }
+            .container{
+                display: flex;
+                background-color: grey;
+                height: 300px;
+                width: 1000px;
+                text-align: center;
+                padding: 50px;
+                justify-content: space-evenly;
+                text-align: center;
+                margin-left: 100px;
+                margin-top: 50px;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+            .box{
+                margin: 20px;
+                padding: 10px;
+                height: auto;
+                width: auto;
+                background-color: azure;
+                font-family: cursive;
+                font-weight: normal;
+                font-style: italic;
+                text-shadow: 2px 2px 30px black;
+                text-decoration: 2px grey dashed underline;
+            } 
+        }
+        @media(prefers-color-scheme: dark){
+            body{
+                margin: 0px;
+                background-color: black;
+            }
+            .nav{
+                height: 70px;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                background-color: black;
+                align-items: center;
+            }
+            .image{
+                display: flex;
+                justify-content: center;
+                margin: 50px;
+                background-color: brown;
+                position: relative;
+            }
+            .text{
+                position: absolute;
+                color: white;
+                top: auto;
+                left: auto;
+            }
+            .container{
+                display: flex;
+                background-color: red;
+                height: 300px;
+                width: 1000px;
+                text-align: center;
+                padding: 50px;
+                justify-content: space-evenly;
+                text-align: center;
+                margin-left: 100px;
+                margin-top: 50px;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+            .box{
+                margin: 20px;
+                padding: 10px;
+                height: auto;
+                width: auto;
+                background-color: black;
+                font-family: cursive;
+                font-weight: normal;
+                font-style: italic;
+                color: aliceblue;
+                text-shadow: 2px 2px 30px black;
+                text-decoration: 2px grey dashed underline;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="hero">
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Register</a>
+        </div>
+        <h2 style="text-align: center;">Home Page</h2>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJAzu5aTrvg0yPTkww7slPkkHuIjxHKsxRnF6YOnvsQ&s=10" alt="" height="300px" width="1000px">
+            <div class="text">
+                <h3>Hero Section</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores adipisci soluta tempore ab voluptas quam, magni aliquam minima assumenda fuga?</p>
+                <button type="submit">More Info</button>&nbsp;&nbsp;
+                <button type="submit">View</button>
+            </div>
+        </div>
+    </div>
+    </center>
+
+    <h3 style="text-align: center;">About Section</h3>
+    <center>
+    <div class="container">
+        <div class="box" id="b1">
+            <p>Education: 
+                University Of Mumbai (College: Pravin Rohidas Patil College of Engineering and Technology)</p>
+        </div>
+        <div class="box" id="b2">
+            <p >Skills:
+                Java, C, Python, JavaScript, TypeScript, Bootstrap, HTML,
+                 CSS, MySQL
+            </p>
+        </div>
+        <div class="box" id="b3">
+            <p>Contact Info:
+               Phone No:7977636220
+            </p>
+        </div>
+        <div class="box" id="b4">
+            <p>Projects:
+               Hospital Reception Management System, University Management System, Import Export ERP, Fake Social Media Profile Detection 
+            </p>
+        </div>
+    </div>
+    </center>
+    <div class="services">
+        <div class="cards">
+            <center><img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" class="img1" alt=""></center>
+            <h4>Image 1</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi minus sed quas facere! Tempore autem nesciunt fuga tenetur quas nulla?</p>
+        </div>
+        <div class="cards">
+            <center><img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" class="img1" alt=""></center>
+            <h4>Image 1</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi minus sed quas facere! Tempore autem nesciunt fuga tenetur quas nulla?</p>
+        </div>
+        <div class="cards">
+            <center><img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" class="img1" alt=""></center>
+            <h4>Image 1</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi minus sed quas facere! Tempore autem nesciunt fuga tenetur quas nulla?</p>
+        </div>
+    </div>
+    <section class="footer" style="text-align: center; background-color: antiquewhite;">
+        <h3>&copy; All Right Reserved</h3>
+    </section>
+</body>
+</html>
