@@ -1,0 +1,92 @@
+body{
+            margin: 0px;
+            z-index: 0;
+        }
+        .navbar{
+            position:fixed;
+            top:0px;
+            left:0px;
+            background-color: beige;
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            z-index: 1;
+        }
+        .section1{
+            background-color: red;
+            position: relative;
+            margin-top: 120px;
+            height: 500px;
+            width: 100%;
+        }
+        .section2{
+            position: absolute;
+            background-color: blueviolet;
+            height: 400px;
+            width: 50%;
+            left:700px;
+            top: 50px;
+        }
+        .logo{
+            position: sticky;
+            z-index: 2;
+            top: 60px;
+            background-color: rgb(24, 8, 239);
+            height: 50px;
+            width: 50px;
+            left: 1430px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .footer{
+            position: static;
+            height: 60px;
+            width: 100%;
+            background-color: burlywood;
+            text-align: center;
+        }
+        
+        
+.container{
+    display: flex;
+    background-color: grey;
+    height: 300px;
+    width: 1000px;
+    text-align: center;
+    padding: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box{
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+    background-color: azure;
+}
+@media(max-width:500px){
+   .container{
+    display: flex;
+    background-color: grey;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box{
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color: azure;
+} 
+}
