@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .morning{
+            background-size: cover;
+            color: black;
+        }
+        .night{
+            display: none;
+        }
+        @media(prefers-color-scheme: dark){
+            body{
+                margin: 0;
+            }
+            .morning{
+                display: none;
+            }
+            .night{
+                color: rgb(214, 16, 16);
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 class="morning">Good Morning</h2>
+    <h2 class="night">Good Night</h2>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQub31dMbwO4RZh_4wDuu5oz6IkZxKT1r5GwXZ5b85HYg&s=10" alt="" class="morning">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRus6yVQ-PFy3JVA3CbhSP5QO-OW5cyHsRphObT3NBJWw&s=10" alt="" class="night">
+</body>
+</html>
