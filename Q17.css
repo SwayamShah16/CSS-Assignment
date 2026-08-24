@@ -1,0 +1,44 @@
+ body{
+    margin: 0;
+}
+.div1{
+        background-image: url(https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-44947671.jpg);
+        background-blend-mode: lighten;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 670px;
+        width: 80%;
+        color: red;
+        font-family: cursive;
+        font-weight: bold;
+        padding: 20px;
+        margin-left: 120px;
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+.div2{
+    position: absolute;
+    top: 425px;
+}
+.div3{
+        background-color: azure;
+        position: relative;
+        height: 400px;
+        width: 80%;
+        display: flex;
+        margin-left: 10%;
+        justify-content: space-evenly;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
