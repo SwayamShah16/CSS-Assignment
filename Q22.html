@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByX8uCgsngQNE-q10TxAzBdix7dtUFJIeGXmEm3EX8g&s=10);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        div{
+            border-radius: 20px;
+            border: 2px black solid;
+            text-align: center;
+            padding: 20px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+            box-shadow: 10px 10px 30px black;
+            font-family: cursive;
+            font-weight: 300;
+            color: white;
+        }
+        @media(max-width:500px){
+            body{
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2mKo09n2n9hCd_h7MqmDBEQyzMXMP65xyl9DQkDL8-w&s=10);
+                background-size: 500% 500%;
+                background-repeat: no-repeat;
+                position: relative;
+            }
+            div{
+                position: absolute;
+                border-radius: 20px;
+                border: 2px black solid;
+                text-align: center;
+                padding: 20px;
+                height: auto;
+                width: 300px;
+                box-shadow: 10px 10px 30px black;
+                font-family: cursive;
+                font-weight: 300;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;color: red;">Login with Us</h2>
+    <center>
+    <div>
+        <form action="">
+            <label for="">Name:</label>
+            <input type="text" pattern="[A-Za-z]+" required>
+            <br><br>
+
+            <label for="">Email:</label>
+            <input type="email" name="" id="">
+            <br><br>
+
+            <label for="">Username:</label>
+            <input type="text">
+            <br><br>
+
+            <label for="">Password:</label>
+            <input type="password" name="" id="">
+            <br><br>
+
+            <button type="submit">Login</button>
+            &nbsp;&nbsp;
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
